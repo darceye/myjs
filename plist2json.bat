@@ -1,0 +1,1 @@
+@node %~dp0plist2json.js %1 %2 %3 %4

@@ -1,0 +1,1 @@
+@node %~dp0replacestr.js %1 %2 %3 %4

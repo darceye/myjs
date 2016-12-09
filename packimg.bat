@@ -1,0 +1,1 @@
+@node %~dp0packimg.js %1 %2 %3 %4
