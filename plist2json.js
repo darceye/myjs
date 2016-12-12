@@ -2,7 +2,7 @@
 
 // support console cmd ///////////////////////////////////////////
 var filename = ""
-var output_filename = "output.plist"
+var output_filename = "output.json"
 if (process.argv.length > 2) {
     filename = process.argv[2]
     if (process.argv.length > 3) {
@@ -18,7 +18,7 @@ var plist = require('plist')
 var fs = require('fs')
 var origin = fs.readFileSync(filename).toString();
 
-var output = plist.parse(origin)
+var output = JSON.stringify(plist.parse(origin))
 
 // output logic ////////////////////////////////////////////////
 if (output_filename == '-c') {
