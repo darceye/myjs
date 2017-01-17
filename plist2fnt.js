@@ -5,6 +5,7 @@ var filename = ""
 var output_filename = "output.json"
 if (process.argv.length > 2) {
     filename = process.argv[2]
+    output_filename = filename.split(".")[0] + ".fnt"
     if (process.argv.length > 3) {
         output_filename = process.argv[3]
         console.log(process.argv[3])
