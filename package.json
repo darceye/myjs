@@ -7,6 +7,9 @@
     "test": "test"
   },
   "dependencies": {
+    "arg-parser": "^1.2.0",
+    "argparse": "^1.0.9",
+    "argparser": "^0.2.2",
     "cheerio": "^0.22.0",
     "plist": "^2.0.1"
   },
