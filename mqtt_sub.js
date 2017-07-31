@@ -8,7 +8,7 @@ parser.addArgument(['-nm'], {help: 'do Not show original Message', action:'store
 parser.addArgument(['-nt'], {help: 'do Not show full Topic', action:'storeTrue'})
 var args = parser.parseArgs()
 // console.log(args)
-var host = args.host? args.host: '120.24.241.237'
+var host = args.host? args.host: '127.0.0.1'
 var topic = args.topic? args.topic: '#'
 
 console.log(`MQTT subscribe ${topic} at ${host}`)
